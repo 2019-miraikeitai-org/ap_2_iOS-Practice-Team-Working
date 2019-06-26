@@ -12,6 +12,8 @@
 		409AF9BD22C3C258009942E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9BB22C3C258009942E7 /* Main.storyboard */; };
 		409AF9BF22C3C25A009942E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9BE22C3C25A009942E7 /* Assets.xcassets */; };
 		409AF9C222C3C25A009942E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9C022C3C25A009942E7 /* LaunchScreen.storyboard */; };
+		409AF9CD22C3C2EE009942E7 /* MockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF9CC22C3C2EE009942E7 /* MockViewController.swift */; };
+		409AF9D122C3C4BD009942E7 /* Mock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9D022C3C4BD009942E7 /* Mock.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		409AF9BE22C3C25A009942E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		409AF9C122C3C25A009942E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		409AF9C322C3C25A009942E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409AF9CC22C3C2EE009942E7 /* MockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewController.swift; sourceTree = "<group>"; };
+		409AF9D022C3C4BD009942E7 /* Mock.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mock.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		409AF9B622C3C258009942E7 /* iOS-Practice-Team-Working */ = {
 			isa = PBXGroup;
 			children = (
+				409AF9C922C3C283009942E7 /* Mock View */,
 				409AF9B722C3C258009942E7 /* AppDelegate.swift */,
 				409AF9B922C3C258009942E7 /* ViewController.swift */,
 				409AF9BB22C3C258009942E7 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				409AF9C322C3C25A009942E7 /* Info.plist */,
 			);
 			path = "iOS-Practice-Team-Working";
+			sourceTree = "<group>";
+		};
+		409AF9C922C3C283009942E7 /* Mock View */ = {
+			isa = PBXGroup;
+			children = (
+				409AF9CC22C3C2EE009942E7 /* MockViewController.swift */,
+				409AF9D022C3C4BD009942E7 /* Mock.storyboard */,
+			);
+			path = "Mock View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409AF9D122C3C4BD009942E7 /* Mock.storyboard in Resources */,
 				409AF9C222C3C25A009942E7 /* LaunchScreen.storyboard in Resources */,
 				409AF9BF22C3C25A009942E7 /* Assets.xcassets in Resources */,
 				409AF9BD22C3C258009942E7 /* Main.storyboard in Resources */,
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409AF9CD22C3C2EE009942E7 /* MockViewController.swift in Sources */,
 				409AF9BA22C3C258009942E7 /* ViewController.swift in Sources */,
 				409AF9B822C3C258009942E7 /* AppDelegate.swift in Sources */,
 			);
