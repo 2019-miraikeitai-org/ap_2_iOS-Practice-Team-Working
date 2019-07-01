@@ -25,14 +25,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtQ-5j-eTf">
+                                <rect key="frame" x="163" y="426" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <segue destination="GEh-yc-exx" kind="modal" id="MDC-1V-nId"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nNw-nY-Nir"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nPQ-ea-xxz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7vZ-Y3-vPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="37.600000000000001" y="160.56971514242881"/>
+            <point key="canvasLocation" x="1916" y="160.56971514242881"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="QNx-AA-HTp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="GEh-yc-exx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="val-Wp-hPl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2668" y="70"/>
         </scene>
     </scenes>
 </document>
