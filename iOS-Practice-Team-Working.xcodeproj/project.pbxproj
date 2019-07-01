@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192F8BE122C9D32200D19F0A /* A.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192F8BE022C9D32200D19F0A /* A.storyboard */; };
 		409AF9B822C3C258009942E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF9B722C3C258009942E7 /* AppDelegate.swift */; };
 		409AF9BA22C3C258009942E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF9B922C3C258009942E7 /* ViewController.swift */; };
 		409AF9BD22C3C258009942E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9BB22C3C258009942E7 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		409AF9C222C3C25A009942E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9C022C3C25A009942E7 /* LaunchScreen.storyboard */; };
 		409AF9CD22C3C2EE009942E7 /* MockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF9CC22C3C2EE009942E7 /* MockViewController.swift */; };
 		409AF9D122C3C4BD009942E7 /* Mock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9D022C3C4BD009942E7 /* Mock.storyboard */; };
-		409AF9D622C3C904009942E7 /* A.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9D522C3C904009942E7 /* A.storyboard */; };
 		409AF9D822C3C960009942E7 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF9D722C3C960009942E7 /* AViewController.swift */; };
 		409AF9DA22C3C9BF009942E7 /* B.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409AF9D922C3C9BF009942E7 /* B.storyboard */; };
 		409AF9DC22C3C9D7009942E7 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409AF9DB22C3C9D7009942E7 /* BViewController.swift */; };
@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192F8BE022C9D32200D19F0A /* A.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = A.storyboard; sourceTree = "<group>"; };
 		409AF9B422C3C258009942E7 /* iOS-Practice-Team-Working.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Practice-Team-Working.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409AF9B722C3C258009942E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		409AF9B922C3C258009942E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		409AF9C322C3C25A009942E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		409AF9CC22C3C2EE009942E7 /* MockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewController.swift; sourceTree = "<group>"; };
 		409AF9D022C3C4BD009942E7 /* Mock.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mock.storyboard; sourceTree = "<group>"; };
-		409AF9D522C3C904009942E7 /* A.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = A.storyboard; sourceTree = "<group>"; };
 		409AF9D722C3C960009942E7 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		409AF9D922C3C9BF009942E7 /* B.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = B.storyboard; sourceTree = "<group>"; };
 		409AF9DB22C3C9D7009942E7 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 		409AF9D222C3C8A7009942E7 /* sceneA */ = {
 			isa = PBXGroup;
 			children = (
-				409AF9D522C3C904009942E7 /* A.storyboard */,
 				409AF9D722C3C960009942E7 /* AViewController.swift */,
+				192F8BE022C9D32200D19F0A /* A.storyboard */,
 			);
 			path = sceneA;
 			sourceTree = "<group>";
@@ -182,8 +182,8 @@
 				409AF9DA22C3C9BF009942E7 /* B.storyboard in Resources */,
 				409AF9C222C3C25A009942E7 /* LaunchScreen.storyboard in Resources */,
 				409AF9BF22C3C25A009942E7 /* Assets.xcassets in Resources */,
-				409AF9D622C3C904009942E7 /* A.storyboard in Resources */,
 				409AF9E022C3CA07009942E7 /* C.storyboard in Resources */,
+				192F8BE122C9D32200D19F0A /* A.storyboard in Resources */,
 				409AF9BD22C3C258009942E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
